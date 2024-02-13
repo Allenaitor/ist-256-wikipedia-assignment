@@ -1,0 +1,47 @@
+.bold {
+    font-weight: bold;
+}
+
+.center {
+    text-align: center;
+}
+
+.larger {
+    font-size: 105%;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+h1, h2 {
+    font-weight: normal;
+    border-bottom: #000 1px solid;
+}
+
+p {
+    font-family: Arial, sans-serif;
+    font-size: 11pt;
+    line-height: 150%;
+}
+
+#outerTable {
+    border: 1px solid black;
+    background-color: #e9eaec;
+    float: right;
+    margin-left: 20px;
+}
+
+#innerTable {
+    float: unset;
+    border: 0;
+    text-align: left;
+}
+
+#innerTable td, th {
+    padding: 5px;
+}
